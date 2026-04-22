@@ -1,0 +1,9 @@
+app = "cosmetic-claim-checker"
+primary_region = "nrt"
+
+[build]
+
+[[vm]]
+  memory = "256mb"
+  cpu_kind = "shared"
+  cpus = 1
