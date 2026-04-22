@@ -1,0 +1,16 @@
+# 機密
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+
+# macOS
+.DS_Store
+
+# 暫存
+/tmp/
+*.log
