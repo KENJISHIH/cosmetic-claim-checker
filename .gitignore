@@ -14,3 +14,6 @@ __pycache__/
 # 暫存
 /tmp/
 *.log
+
+# 原始 PDF（體積大，已 OCR 進 knowledge_base/ocr_output/）
+knowledge_base/raw_pdfs/

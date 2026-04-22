@@ -5,12 +5,13 @@ tg_username: "@cosmetic_claim_bot"
 owner: Kenji Shih (kenjishih@gmail.com)
 created: 2026-04-22
 handoff_to: Claude Sonnet 4.6
-current_phase: Phase 0（知識庫建置）
+current_phase: Phase 3 完成，待啟動 Phase 2（/addcase 案例累積）
+last_updated: 2026-04-22
 ---
 
 # 化粧品宣稱檢核助手 — 開發執行書
 
-> **給接手的 Sonnet**：這份文件是完整規劃。先讀完第 0～4 節理解背景，再從第 5 節「Phase 0 執行任務」開始動手。遇到不確定的地方優先回看這份文件，不要擅自改變架構。
+> **狀態（2026-04-22 更新）**：Phase 0、1、3 已完成，Fly.io 東京 24/7 上線中（`cosmetic-claim-checker.fly.dev`）。這份文件保留原始規劃供追溯；實作細節以 `~/Documents/Kenji_Vault/Kenji_Vault/02_Project_Claude/Work_Logs/2026-04-22_cosmetic-claim-checker.md` 為準。下一步是 Phase 2（`/addcase` 指令 + 案例 few-shot 整合）。
 
 ---
 
